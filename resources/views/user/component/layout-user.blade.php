@@ -19,9 +19,8 @@
 </head>
 <body>
     <x-sidebar-user></x-sidebar-user>
-    <main>
-        {{ $slot }}
-    </main>
+    {{ $slot }}
+
 
     <script src="{{ asset('aset/vendor/global/global.min.js') }}"></script>
     <script src="{{ asset('aset/vendor/chart.js/Chart.bundle.min.js') }}"></script>
