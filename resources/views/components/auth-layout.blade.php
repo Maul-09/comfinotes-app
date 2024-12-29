@@ -14,7 +14,7 @@
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 	<link href="{{ asset('aset/vendor/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
 	<link rel="stylesheet" href="{{ asset('aset/vendor/nouislider/nouislider.min.css') }}">
-    <link href="{{ asset('aset/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('aset/css/style-job.css') }}" rel="stylesheet">
     <title>Signin - Keuangan Digital</title>
 </head>
 <body>
@@ -35,6 +35,5 @@
     <script src="{{ asset('aset/js/custom.min.js') }}"></script>
     <script src="{{ asset('aset/js/dlabnav-init.js') }}"></script>
     <script src="{{ asset('aset/js/demo.js') }}"></script>
-    <script src="{{ asset('aset/js/styleSwitcher.js') }}"></script>
 </body>
 </html>

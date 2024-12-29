@@ -40,7 +40,7 @@
                                     <span class="badge light text-white bg-primary rounded-circle">1</span>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end">
-                                    <div id="dlab_W_Notification1" class="widget-media dlab-scroll p-2" style="height:380px;">
+                                    <div id="dlab_W_Notification1" class="widget-media dlab-scroll p-2" style="height:280px;">
                                     <h5 class="p-3 fw-bold">Notification</h5>
 									</div>
                                     <a class="all-notification" href="javascript:void(0);">See all notifications <i class="ti-arrow-end"></i></a>

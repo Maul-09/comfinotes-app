@@ -9436,7 +9436,7 @@ svg.pulse-svg {
   display: inline-block; }
 
 .notification_dropdown .dropdown-menu-end {
-  min-width: 310px;
+  min-width: 280px;
   padding: 0rem 0 1rem;
   top: 100%; }
   .notification_dropdown .dropdown-menu-end .notification_title {
@@ -24238,7 +24238,7 @@ button {
   [direction="rtl"] .dropdown-menu {
     right: auto !important; }
   .dropdown-menu.show {
-    right: 0; }
+    right: -5em; }
 
 .dropdown-toggle-split {
   padding: 0 10px;
