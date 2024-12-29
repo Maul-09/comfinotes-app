@@ -9,13 +9,8 @@ use Illuminate\View\Component;
 class adminlayout extends Component
 {
 
-    public function __construct()
-    {
-        //
-    }
-
     public function render(): View|Closure|string
     {
-        return view('admin/component.admin-layout');
+        return view('components.adminlayout');
     }
 }

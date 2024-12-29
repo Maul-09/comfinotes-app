@@ -8,6 +8,6 @@ class ComfinotesController extends Controller
 {
     public function dashboardUser()
     {
-        return view('user/dashboard-user');
+        return view('user.dashboard-user');
     }
 }
