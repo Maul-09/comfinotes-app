@@ -10,4 +10,5 @@ class ComfinotesController extends Controller
     {
         return view('user.dashboard-user');
     }
+
 }
