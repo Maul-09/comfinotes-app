@@ -34,7 +34,7 @@
                                             </div>
 
                                             <!-- Input Password -->
-                                            <div class="my-2">
+                                            <div class="mb-4">
                                                 <label for="password" class="text-muted mb-0">
                                                     <p class="fs-6">Password</p>
                                                 </label>

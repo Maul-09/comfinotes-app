@@ -35,7 +35,7 @@
                                             <div class="form-check custom-checkbox">
                                                 <input type="checkbox" name="remember" class="form-check-input" id="basic_checkbox_1">
                                                 <label class="form-check-label" for="basic_checkbox_1">Remember Me</label>
-                                                <a href="{{ route('password.request') }}" class="form-check-label float-end">Forgot Password?</a>
+                                                <a href="#" class="form-check-label float-end">Forgot Password?</a>
                                             </div>
                                         </div>
 

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 
-class ComfinotesController extends Controller
+class UsersController extends Controller
 {
     public function dashboardUser()
     {

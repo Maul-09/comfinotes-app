@@ -29,7 +29,7 @@
                     </a>
                 </div>
             </li>
-            <li><a href="{{ route('dashbord-admin') }}" class="ai-icon" aria-expanded="false">
+            <li><a href="{{ route('dashboard-admin') }}" class="ai-icon" aria-expanded="false">
                 <i class="flaticon-025-dashboard"></i>
                 <span class="nav-text">Dashboard</span>
             </a></li>

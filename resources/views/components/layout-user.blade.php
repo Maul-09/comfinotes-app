@@ -11,10 +11,10 @@
 	<meta property="og:title" content="Dompet : Payment Admin Template">
 	<meta name="format-detection" content="telephone=no">
 
-    <link rel="shortcut icon" type="image/png" href="{{ asset('aset/images/favicon.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('image/logo-jurnal.png') }}">
 	<link href="{{ asset('aset/vendor/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
 	<link rel="stylesheet" href="{{ asset('aset/vendor/nouislider/nouislider.min.css') }}">
-    <link href="{{ asset('aset/css/style-job.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style-job.css') }}" rel="stylesheet">
     <title>Comfinotes - Keuangan Digital</title>
 </head>
 <body>
