@@ -36,17 +36,17 @@
 
             <li><a href="{{ route('komunitas-admin') }}" class="ai-icon" aria-expanded="false">
                 <i class="flaticon-043-menu"></i>
-                <span class="nav-text">Community</span>
+                <span class="nav-text">Komunitas</span>
             </a></li>
 
             <li><a href="{{ route('statistik-admin') }}" class="ai-icon" aria-expanded="false">
                 <i class="flaticon-041-graph"></i>
-                <span class="nav-text">Statistics</span>
+                <span class="nav-text">Statistik</span>
             </a></li>
 
             <li><a href="{{ route('riwayat-admin') }}" class="ai-icon" aria-expanded="false">
                 <i class="flaticon-005-back-arrow"></i>
-                <span class="nav-text">History</span>
+                <span class="nav-text">Transaksi</span>
             </a></li>
 
         </ul>

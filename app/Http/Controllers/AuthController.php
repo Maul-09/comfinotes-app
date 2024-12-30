@@ -6,10 +6,6 @@ use Illuminate\Routing\Controller;
 
 class AuthController extends Controller
 {
-    public function ShowRegister()
-    {
-        return view('auth.register');
-    }
 
     public function ShowAuth()
     {

@@ -29,13 +29,18 @@
                     </a>
                 </div>
             </li>
-            <li><a href="{{ url('/user') }}" class="ai-icon" aria-expanded="false">
+            <li><a href="{{ route('dashboard') }}" class="ai-icon" aria-expanded="false">
                 <i class="flaticon-025-dashboard"></i>
                 <span class="nav-text">Dashboard</span>
             </a></li>
-            <li><a href="{{ url('/statistik-user') }}" class="ai-icon" aria-expanded="false">
+            <li><a href="{{ route('statistik') }}" class="ai-icon" aria-expanded="false">
                 <i class="flaticon-041-graph"></i>
                 <span class="nav-text">Statistics</span>
+            </a></li>
+
+            <li><a href="{{ route('riwayat') }}" class="ai-icon" aria-expanded="false">
+                <i class="flaticon-041-graph"></i>
+                <span class="nav-text">Riwayat</span>
             </a></li>
 
         </ul>

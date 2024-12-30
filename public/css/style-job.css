@@ -26518,12 +26518,18 @@ table.dataTable.display tbody td {
           font-size: 14px;
           padding: 0px 7px; }
 
-.auth-form {
+.auth-form-login {
   padding: 45px 45px; }
+
+.auth-form-register {
+    padding: 20px 40px; }
   @media only screen and (max-width: 575px) {
-    .auth-form {
+    .auth-form-login,
+    .auth-form-register {
       padding: 30px; } }
-  .auth-form .btn {
+
+      .auth-form-register .btn,
+      .auth-form-login .btn {
     height: 50px;
     font-weight: 700; }
   .auth-form .page-back {

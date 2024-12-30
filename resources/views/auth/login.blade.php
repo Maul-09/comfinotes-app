@@ -7,7 +7,7 @@
                     <div class="authincation-content">
                         <div class="row no-gutters">
                             <div class="col-xl-12">
-                                <div class="auth-form">
+                                <div class="auth-form-login">
 									<div class="text-center mb-3">
 										<a href="index.html"><img src="{{ asset('image/logo-jurnal.png') }}" width="60" height="60" alt=""></a>
 									</div>
@@ -43,10 +43,6 @@
                                             <button type="submit" class="btn btn-info btn-block">Sign In</button>
                                         </div>
                                     </form>
-
-                                    <div class="text-center new-account mt-3">
-                                        <p>Don't have an account? <a class="text-info" href="{{ route('register') }}">Sign up</a></p>
-                                    </div>
                                 </div>
                             </div>
                         </div>
