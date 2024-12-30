@@ -4,8 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+
 class AdminController
 {
+
     public function DashboardAdmin()
     {
         return view('admin.dashboard-admin');
