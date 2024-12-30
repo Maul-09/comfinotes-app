@@ -15,7 +15,6 @@
                                     <p class="text-center my-3">Sign in into your account to start using wantrich</a></p>
                                     <form action="{{ route('login') }}" method="POST">
                                         @csrf
-
                                         <div class="my-3">
                                             <label class="text-muted"><p class="fs-6 mb-0">Username/No grup</p></label>
                                             <input type="text" name="username" class="form-control" placeholder="Example: Wantrich" value="{{ old('username') }}" required autofocus>
