@@ -14,21 +14,23 @@
                                     <h3 class="fw-bold text-center my-1">Sign In</h3>
                                     <p class="text-center my-3">Sign in into your account to start using wantrich</a></p>
                                     <form action="{{ route('login.submit') }}" method="POST">
+                                        @if ($errors->any())
+                                                <div class="alert alert-danger">
+                                                    <ul>
+                                                        @foreach ($errors->all() as $error)
+                                                            <li>{{ $error }}</li>
+                                                        @endforeach
+                                                    </ul>
+                                                </div>
+                                            @endif
                                         @csrf
                                         <div class="my-3">
                                             <label class="text-muted"><p class="fs-6 mb-0">Group Code/username</p></label>
                                             <input type="text" name="group_code" class="form-control" placeholder="Masukan Group Code atau username" value="{{ old('group_code') }}" required autofocus>
-                                            @error('group_code')
-                                                <div class="text-danger">{{ $message }}</div>
-                                            @enderror
                                         </div>
-
                                         <div class="my-3">
                                             <label class="text-muted"><p class="fs-6 mb-0">Password</p></label>
                                             <input type="password" name="password" class="form-control" placeholder="Masukan Password" required>
-                                            @error('password')
-                                                <div class="text-danger">{{ $message }}</div>
-                                            @enderror
                                         </div>
 
                                         <div class="my-4">

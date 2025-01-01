@@ -2,16 +2,27 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Auth\Authenticatable as AuthenticatableTrait;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 
-class Users extends Model implements Authenticatable
+class Users extends Authenticatable
 {
-    use HasFactory, AuthenticatableTrait;
+    use Notifiable;
 
     protected $table = 'autentikasi';
-    protected $fillable = ['group_code', 'username', 'email', 'password', 'user_type'];
-    protected $hidden = ['password'];
+
+    protected $fillable = [
+        'group_code',
+        'username',
+        'email',
+        'password',
+        'user_type',
+        'remember_token',
+    ];
+
+    protected $hidden = [
+        'password',
+        'remember_token',
+    ];
 }
+

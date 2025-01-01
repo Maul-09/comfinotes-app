@@ -20,6 +20,6 @@ class AdminMiddleware
             return $next($request);
         }
 
-        return redirect()->route('/')->withErrors(['error' => 'You are not authorized to access this page.']);
+        return redirect()->route('login')->withErrors(['error' => 'Anda tidak terdaftar sebagai Admin']);
     }
 }

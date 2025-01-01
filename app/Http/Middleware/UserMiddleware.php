@@ -10,11 +10,11 @@ class UserMiddleware
 {
     public function handle(Request $request, Closure $next)
     {
-        if (Auth::check() && Auth::user()->user_type == 'user') {
+        if (Auth::check() && Auth::auth()->user_type == 'user') {
             return $next($request);
         }
 
-        return redirect()->route('/')->withErrors(['error' => 'You are not authorized to access this page.']);
+        return redirect()->route('login')->withErrors(['error' => 'Anda tidak terdaftar sebagai user']);
     }
 }
 
