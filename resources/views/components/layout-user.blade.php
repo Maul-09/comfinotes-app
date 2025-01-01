@@ -36,5 +36,7 @@
     <script src="{{ asset('aset/js/custom.min.js') }}"></script>
     <script src="{{ asset('aset/js/dlabnav-init.js') }}"></script>
     <script src="{{ asset('aset/js/demo.js') }}"></script>
+    <script src="{{ asset('js/alert.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 </html>

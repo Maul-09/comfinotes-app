@@ -23,14 +23,29 @@
                                                     </ul>
                                                 </div>
                                             @endif
+                                            @if(session('logout'))
+                                                <div class="alert alert-success text-sm-center">
+                                                    {{ session('logout') }}
+                                                </div>
+                                            @endif
                                         @csrf
                                         <div class="my-3">
                                             <label for="credit" class="text-muted"><p class="fs-6 mb-0">Group Code/username</p></label>
                                             <input type="text" name="identifikasi" class="form-control" id="identifikasi" placeholder="masukan group_code/username" required>
+                                            {{-- @if(session('logout'))
+                                                <div class="alert alert-success text-sm-center">
+                                                    {{ session('logout') }}
+                                                </div>
+                                            @endif --}}
                                         </div>
                                         <div class="my-3">
                                             <label for="password" class="text-muted"><p class="fs-6 mb-0">Password</p></label>
                                             <input type="password" name="password" class="form-control" placeholder="Masukan Password" required>
+                                            {{-- @if(session('logout'))
+                                                <div class="alert alert-success text-sm-center">
+                                                    {{ session('logout') }}
+                                                </div>
+                                            @endif --}}
                                         </div>
 
                                         <div class="my-4">
