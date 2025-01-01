@@ -16,6 +16,12 @@
 
         <main>
         {{-- Navbar Head --}}
+        {{-- @if (session('success'))
+            <div class="alert alert-success">
+                {{ session('success') }}
+            </div>
+        @endif --}}
+
         <div class="header">
             <div class="header-content">
                 <nav class="navbar navbar-expand">

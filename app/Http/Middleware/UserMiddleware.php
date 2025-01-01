@@ -10,11 +10,12 @@ class UserMiddleware
 {
     public function handle(Request $request, Closure $next)
     {
-        if (Auth::check() && Auth::auth()->user_type == 'user') {
+        if (Auth::check() && Auth::user()->user_type == 'user') {
             return $next($request);
         }
 
-        return redirect()->route('login')->withErrors(['error' => 'Anda tidak terdaftar sebagai user']);
+        return redirect()->route('login')->withErrors(['error' => 'Anda tidak terdaftar sebagai user, silahkan lakukan autentikasi']);
     }
+
 }
 

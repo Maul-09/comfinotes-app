@@ -16,7 +16,7 @@
                                     <form action="{{ route('login.submit') }}" method="POST">
                                         @if ($errors->any())
                                                 <div class="alert alert-danger">
-                                                    <ul>
+                                                    <ul class="text-sm-center">
                                                         @foreach ($errors->all() as $error)
                                                             <li>{{ $error }}</li>
                                                         @endforeach
@@ -25,11 +25,11 @@
                                             @endif
                                         @csrf
                                         <div class="my-3">
-                                            <label class="text-muted"><p class="fs-6 mb-0">Group Code/username</p></label>
-                                            <input type="text" name="group_code" class="form-control" placeholder="Masukan Group Code atau username" value="{{ old('group_code') }}" required autofocus>
+                                            <label for="credit" class="text-muted"><p class="fs-6 mb-0">Group Code/username</p></label>
+                                            <input type="text" name="identifikasi" class="form-control" id="identifikasi" placeholder="masukan group_code/username" required>
                                         </div>
                                         <div class="my-3">
-                                            <label class="text-muted"><p class="fs-6 mb-0">Password</p></label>
+                                            <label for="password" class="text-muted"><p class="fs-6 mb-0">Password</p></label>
                                             <input type="password" name="password" class="form-control" placeholder="Masukan Password" required>
                                         </div>
 

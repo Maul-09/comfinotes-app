@@ -20,6 +20,6 @@ class AdminMiddleware
             return $next($request);
         }
 
-        return redirect()->route('login')->withErrors(['error' => 'Anda tidak terdaftar sebagai Admin']);
+        return redirect()->route('login')->withErrors(['error' => 'Anda tidak terdaftar sebagai Admin, silahkan lakukan autentikasi']);
     }
 }
