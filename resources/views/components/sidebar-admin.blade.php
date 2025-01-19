@@ -1,5 +1,5 @@
 <div class="nav-header">
-    <a href="index.html" class="brand-logo">
+    <a href="#" class="brand-logo">
         <img src="{{ asset('image/logo-jurnal.png') }}" alt="" class="logo-comfinotes" viewbox="0 0 53 53">
     </a>
     <div class="nav-control">
